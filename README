@@ -1,0 +1,25 @@
+A simple, multiplayer, board game which supports two players. Players move around the board and score points by revealing hidden food.
+On a players turn, they can take one action: move or reveal. Players can steal food by revealing food of the
+opposing color, causing the opponent to lose points. Player with the points at the end wins.
+
+Players can join by going to `localhost:5000`.
+
+Controls for red player:
+    up: W
+    down: D
+    left: A
+    right: S
+    reveal: f
+
+Controls for blue player:
+    up: up arrow
+    down: down arrow
+    left: left arrow
+    right: right arrow
+    reveal: M
+
+To install:
+`pip install -r requirements.txt -e .`
+
+To run the server:
+`python app.py`
